@@ -11,9 +11,9 @@ Resources:
       BucketName: !Sub "${MyBucketName}"
       PublicAccessBlockConfiguration:
         BlockPublicPolicy: false
-      OwnershipControls:
-        Rules:
-           - ObjectOwnership: BucketOwnerPreferred
+#      OwnershipControls:
+#        Rules:
+#           - ObjectOwnership: BucketOwnerPreferred
         AccessControl: AwsExecRead
       WebsiteConfiguration:
         IndexDocument: index.html
