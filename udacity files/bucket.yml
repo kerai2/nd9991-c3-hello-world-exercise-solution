@@ -10,7 +10,7 @@ Resources:
     Properties:
       BucketName: !Sub "${MyBucketName}"
       PublicAccessBlockConfiguration:
-        BlockPublicPolicy: false
+        BlockPublicAcls: false
       OwnershipControls:
           Rules:
             - ObjectOwnership: ObjectWriter
