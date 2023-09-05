@@ -14,7 +14,7 @@ Resources:
 #      OwnershipControls:
 #        Rules:
 #           - ObjectOwnership: BucketOwnerPreferred
-        AccessControl: AwsExecRead
+#        AccessControl: AwsExecRead
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html
