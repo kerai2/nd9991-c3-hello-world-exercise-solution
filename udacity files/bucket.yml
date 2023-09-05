@@ -9,9 +9,8 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       BucketName: !Sub "${MyBucketName}"
-      ObjectOwnership: BucketOwnerPreferred
       PublicAccessBlockConfiguration:
-        BlockPublicPolicy: false
+        BlockPublicPolicy: 'false'
       AccessControl: PublicRead
       WebsiteConfiguration:
         IndexDocument: index.html
