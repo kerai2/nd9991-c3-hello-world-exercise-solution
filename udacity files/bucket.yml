@@ -10,10 +10,11 @@ Resources:
     Properties:
       BucketName: !Sub "${MyBucketName}"
       PublicAccessBlockConfiguration:
-        BlockPublicAcls: false
+        BlockPublicPolicy: false
       OwnershipControls:
-          Rules:
-            - ObjectOwnership: ObjectWriter
+        Rules:
+           - ObjectOwnership: BucketOwnerPreferred
+        AccessControl: AwsExecRead
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html
