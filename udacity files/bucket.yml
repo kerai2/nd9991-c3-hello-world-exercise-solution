@@ -10,9 +10,9 @@ Resources:
     Properties:
       BucketName: !Sub "${MyBucketName}"
       AccessControl: public-read
-#      OwnershipControls:
-#        Rules:
-#          - ObjectOwnership: ObjectWriter
+      OwnershipControls:
+        Rules:
+          - ObjectOwnership: ObjectWriter
 #     PublicAccessBlockConfiguration:
 #        BlockPublicAcls: false
 #        BlockPublicPolicy: false
