@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../Git/udacity-ci-cd"
+		},
+		{
+			"path": "../../Create-a-CI-Pipeline"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
