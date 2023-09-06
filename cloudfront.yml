@@ -1,7 +1,7 @@
 Parameters:
   # Existing Bucket name
   PipelineID:
-    Description: mybucket-udacity-keraid
+    Description: Existing Bucket name
     Type: String
 
 Resources:
